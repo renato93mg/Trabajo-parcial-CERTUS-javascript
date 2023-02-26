@@ -1,0 +1,35 @@
+{
+    "productos":[
+        {
+            "id":1,
+            "nombre":"Laptop 1",
+            "url":"img/1.jpg"
+        },
+        {
+            "id":2,
+            "nombre":"Laptop 2",
+            "url":"img/2.jpg"
+        },
+        {
+            "id":3,
+            "nombre":"Laptop 3",
+            "url":"img/3.jpg"
+        },
+        {
+            "id":4,
+            "nombre":"Laptop 4",
+            "url":"img/4.jpg"
+        },
+        {
+            "id":5,
+            "nombre":"Laptop 5",
+            "url":"img/5.jpg"
+        },
+        {
+            "id":6,
+            "nombre":"Laptop 6",
+            "url":"img/6.jpg"
+        }
+    ]
+}
+

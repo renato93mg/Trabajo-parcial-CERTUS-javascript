@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+
+    <!--estilos de bootstrap-->
+    <link rel="stylesheet" href="css/bootstrap.min.css">
+
+    <style>
+        li{
+            list-style: none;
+        }
+    </style>
+
+</head>
+
+<body>
+    <!--navbar de bootstrap-->
+    <nav class="navbar navbar-expand-lg navbar-dark bg-danger">
+        <a class="navbar-brand" href="#">Hiraoka</a>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+            aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+            <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+            <ul class="navbar-nav mr-auto">
+                <li class="nav-item active">
+                    <a class="nav-link" href="#">Home</a>
+                </li>
+                <li class="nav-item">
+                    <a class="nav-link" href="#">Link</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <div class="row mt-2">
+        
+        <!-- menu de categorias -->
+        <div class="categorias col-3">
+            <h2 class="text-center mb-2">Comprar Laptop</h2>
+            <ul>
+                <li>Categoria</li>
+                <li>Marca</li>
+                <li>Color</li>
+                <li>Precio</li>
+
+                <li>Tamaño de Pantalla</li>
+                <li>Procesador</li>
+                <li>Memoria RAM</li>
+                <li>Capacidad del Disco</li>
+                <li>Tipo de Disco</li>
+                <li>Tarjeta Gráfica</li>
+                <li>Modelo de Tarjeta Gráfica</li>
+                <li>Sistema Operativo</li>
+            </ul>
+        </div>
+
+        <!-- grilla de productos -->
+        <div class="col-8">
+                <div id="renderizado" class="row row-cols-3"></div>
+        </div>
+    </div>
+
+    <div class="container mt-4">
+        
+    </div>
+    </div>
+
+    <script src="js/jquery-3.6.3.min.js"></script>
+    <script src="js/bootstrap.bundle.min.js"></script>
+    <script src="js/bootstrap.min.js"></script>
+
+    <!-- cdn de axios -->
+    <script src="https://unpkg.com/axios/dist/axios.min.js"></script>
+
+    <!-- se realiza la peticion get para obtener los datos de los productos -->
+    <script src="js/guion.js"></script>
+</body>
+
+</html>
+
